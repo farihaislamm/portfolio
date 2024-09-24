@@ -37,21 +37,18 @@ a{
     background-size: cover;
     height: 590px;
     width: 100%;
-    
 }
 header{
     background: white;
     align-items: center;
 }
-
 .top_bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: navy;
     color: white;
-    padding: 20px;
-   
+    padding: 20px; 
 }
 .contact_info{
     display: flex;  
@@ -78,7 +75,6 @@ header{
 .block{
    text-align: center;
     color: aliceblue;
-   
     font-size: 20px;
     font-family: "IBM Plex Serif", serif;
     font-weight: 500;
@@ -522,6 +518,7 @@ display: block;
     margin-top: 20px;
     align-items: center;
    }
+
    .svg_img_2{
     width: 150px;
     height: 100px;
@@ -538,5 +535,7 @@ display: block;
 ul{
     display: none;
 }
+    
 }
+
 
