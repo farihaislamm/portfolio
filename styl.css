@@ -170,7 +170,7 @@ align-items: center;
     box-shadow: 10px 10px 10px}
     .seven{
         display: flex;
-   align-items: center;
+  justify-content: center;
     gap: 10px;
     }
 .seven .box:hover{
@@ -192,14 +192,22 @@ display: flex;
 
 }
 .paragrap h1{
-    font-size: 15px;
+    font-size: 30px;
     color: #295F98;
    text-align: center;
     font-weight: bold;
-    font-family: 'Abril Fatface', serif;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 .paragrap p{
     text-align: center;
+    width: 400px;
+    font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
 }
 .paragraph2{
     font-size: 20px;
@@ -263,18 +271,18 @@ border-bottom: 2px solid navy;
 }
 h1{
     color: #295F98;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
 }
-.svg_parents img{
-    width: 400px;
-    height: 50px;
-   text-align: center;
-    padding-top: 40px;
-   
-}
+
 .tittle{
     margin-left: 600px;
     font-size: 25px;
     color: #000;
+    border-bottom: 3px solid orangered;
+    width: 450px;
 }
 .bg_img_2{
     background: url(./images/WhatsApp\ Image\ 2024-08-27\ at\ 9.03.19\ PM.jpeg);
@@ -282,7 +290,7 @@ h1{
     background-size: cover;
 }
 .tittle h1{
-    color: white;
+    color: black;
 }
 .main {
     font-family:Arial;
@@ -321,6 +329,7 @@ display: block;
     margin: 0 auto;
     height: 300px;
     width: 1000px;
+    padding-bottom: 35px;
 }
 .slick-prev::before,
 .slick-next::before {
@@ -329,8 +338,11 @@ display: block;
 }
 
 .slick-prev {
-    margin-left: 40px;
+    z-index: 2;
   }
+  .slick-prev {
+    left: 0;
+}
 
   .slick-next {
     margin-right: 40px;
@@ -361,8 +373,16 @@ display: block;
 .your-class{
     align-items: center;
 }
-.titlearea h1,h3{
+.titlearea h1{
     text-align: center;
+    font-size: 30px;
+}
+.titlearea h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Rubik Gemstones", system-ui;
+  font-weight: 400px;
+  font-style: normal;
 }
 .titlearea{
     padding: 20px 0;
@@ -380,6 +400,12 @@ display: block;
 .project_img img:hover{
    animation-name: scroll;
    animation-duration: 4s;
+ }
+ .each_project h2{
+    color: #FFF8E8;
+ }
+ .each_project h4 a{
+   color: #FFF6EA;
  }
 
 
@@ -405,11 +431,15 @@ display: block;
 }
 .features_paragraph p{
     font-size: 14px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
 }
 
 .all_container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .join_us img.svg_img{
     width: 130px;
@@ -453,6 +483,34 @@ display: block;
 }
 .middle_side h1{
     color: #f30;
+}
+.last_slider{
+    display: flex;
+}
+.last_slider div img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.latest_works{
+    background: url(./images/innsbruck358280_1280\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+} 
+.sughondho img{
+    height: 100px;
+    width: 100px;
+}
+.footer_icon{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-top: 50px;
+}
+footer{
+    text-align: center;
+    color: white;
 }
 
 
